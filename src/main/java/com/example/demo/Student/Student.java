@@ -1,19 +1,19 @@
-package com.example.demo.student;
+package com.example.demo.Student;
 
 import java.time.LocalDate;
 
-public class student {
+public class Student {
     private Long id;
     private String name;
     private String email;
     private LocalDate dob;
     private Integer age;
 
-    public student(Long id) {
+    public Student(Long id) {
         this.id = id;
     }
 
-    public student(Long id,
+    public Student(Long id,
                    String name,
                    String email,
                    LocalDate dob,
@@ -25,7 +25,7 @@ public class student {
         this.age = age;
     }
 
-    public student(String name,
+    public Student(String name,
                    String email,
                    LocalDate dob,
                    Integer age) {
